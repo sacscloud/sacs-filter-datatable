@@ -1,7 +1,5 @@
 # \<sacs-filter-datatable\>
 
-# \<sacs-import-catalog\>
-
 Necesito tener parametros dentro de mi data table para poder configurar vistas especificas de acuerdo a lo que requiera en ese momento y al guardar la vista tenga la informacion correspondiente cuando entre de nuevo a la pantalla, esto con el objetivo de tener mis datos organizados de la manera mas efectiva posible y poder encontrarlos muy rapido.
 
 ## Criterios de aceptación
@@ -23,7 +21,7 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 ## Install component
 
 ```
-bower i --save sacscloud/sacs-input-autocomplete
+bower i --save sacscloud/sacs-filter-datatable
 ```
 
 ## Viewing Your Element
@@ -90,7 +88,7 @@ Este componente no usa dependencias de otros componentes
 ## Use
 
 ```
-<sacs-import-catalog></sacs-import-catalog>
+<sacs-filter-datatable</sacs-filter-datatable>
 ```
 
 ## Behaviour
